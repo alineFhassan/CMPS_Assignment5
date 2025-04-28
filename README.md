@@ -53,16 +53,29 @@ This project implements a **Multimodal Retrieval-Augmented Generation (RAG)** sy
 
 ## Project Structure
 .
-├── app.py                     # Streamlit web app for user interaction
-├── embeddings.py              # Generates text and image embeddings
-├── evaluation.py              # Evaluates retrieval methods
-├── prepare_data.py            # Downloads video, transcribes audio, extracts frames
-├── retrieval.py               # Builds retrieval models and indexes
-├── retrieval_functions.py     # Query functions for different retrieval methods
-├── evaluation_results.csv     # Evaluation results for retrieval methods
-├── gold_standard_test_set.xlsx # Gold standard test set for evaluation
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
+├── app.py
+│   └── Streamlit web app for user interaction
+├── embeddings.py
+│   └── Generate text and image embeddings
+├── evaluation.py
+│   └── Evaluate retrieval methods (accuracy, rejection)
+├── prepare_data.py
+│   └── Download video, transcribe audio, extract frames
+├── retrieval.py
+│   └── Build retrieval models and indexes
+├── retrieval_functions.py
+│   └── Query functions for different retrieval methods
+│
+├── evaluation_results.csv
+│   └── Evaluation results for retrieval methods
+├── gold_standard_test_set.xlsx
+│   └── Gold standard test set for evaluation
+│
+├── requirements.txt
+│   └── Python dependencies
+└── README.md
+    └── Project documentation (this file)
+
 
 ## Usage
 Streamlit Web App
