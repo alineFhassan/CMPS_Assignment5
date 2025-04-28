@@ -52,6 +52,7 @@ This project implements a **Multimodal Retrieval-Augmented Generation (RAG)** sy
 ```streamlit run app.py```
 
 ## Project Structure
+```
 .
 ├── app.py
 │   └── Streamlit web app for user interaction
@@ -65,16 +66,15 @@ This project implements a **Multimodal Retrieval-Augmented Generation (RAG)** sy
 │   └── Build retrieval models and indexes
 ├── retrieval_functions.py
 │   └── Query functions for different retrieval methods
-│
 ├── evaluation_results.csv
 │   └── Evaluation results for retrieval methods
 ├── gold_standard_test_set.xlsx
 │   └── Gold standard test set for evaluation
-│
 ├── requirements.txt
 │   └── Python dependencies
 └── README.md
     └── Project documentation (this file)
+```
 
 
 ## Usage
