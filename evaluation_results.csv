@@ -1,0 +1,6 @@
+Retrieval Method,Accuracy on Answerable Questions,Rejection Quality on Unanswerable Questions,Average Latency (seconds)
+FAISS,0.7,0.0,0.013
+pgvector-IVFFLAT,0.6,0.0,0.079
+pgvector-HNSW,0.6,0.0,0.07
+TF-IDF,0.7,0.0,0.001
+BM25,0.4,0.0,0.002
